@@ -14,8 +14,6 @@ public class CalculatorTest {
         this.num2 = 2;
     }
 
-
-
     @Test
     public void hasAdd(){
         assertEquals(5, Calculator.add(num1, num2), 0.01);
@@ -26,6 +24,10 @@ public class CalculatorTest {
         assertEquals(1, Calculator.subtract(num1, num2), 0.01);
     }
 
+    @Test
+    public void multiply(){
+        assertEquals(6, Calculator.multiply(num1, num2), 0);
+    }
 
 
 }
