@@ -21,5 +21,11 @@ public class CalculatorTest {
         assertEquals(5, Calculator.add(num1, num2), 0.01);
     }
 
+    @Test
+    public void hasSubtract(){
+        assertEquals(1, Calculator.subtract(num1, num2), 0.01);
+    }
+
+
 
 }
