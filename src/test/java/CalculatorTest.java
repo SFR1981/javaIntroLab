@@ -29,5 +29,10 @@ public class CalculatorTest {
         assertEquals(6, Calculator.multiply(num1, num2), 0);
     }
 
+    @Test
+    public void divide(){
+        assertEquals(1.5, Calculator.divide(num1, num2), 0.00001);
+        assertEquals(0.666666666667, Calculator.divide(num2, num1), 0.00001);
+    }
 
 }
